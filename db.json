@@ -1,0 +1,38 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "imgSrc": "../../assets/images/img1.jpg",
+      "name": "Mahindra Thar",
+      "price": 1500000
+    },
+    {
+      "id": 2,
+      "imgSrc": "../../assets/images/img2.jpg",
+      "name": "Maruti Jimny",
+      "price": 1300000
+    },
+    {
+      "id": 3,
+      "imgSrc": "../../assets/images/img3.jpg",
+      "name": "Kia Seltos",
+      "price": 1200000
+    },
+    {
+      "id": 4,
+      "imgSrc": "../../assets/images/img 31.jpg",
+      "name": "Toyoto Fortuner",
+      "price": 3500000
+    },
+    {
+      "id": 5,
+      "imgSrc": "../../assets/images/img5.jpg",
+      "name": "Tata Nexon",
+      "price": 13000000
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

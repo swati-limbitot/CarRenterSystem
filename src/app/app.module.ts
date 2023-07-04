@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { CarrentalComponent } from './carrental/carrental.component';
 import { ReviewComponent } from './review/review.component';
 import { LoginComponent } from './login/login.component';
+import { CarlistComponent } from './carlist/carlist.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import{HttpClientModule} from '@angular/common/http';
+import { LupdateComponent } from './lupdate/lupdate.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,15 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
     CarrentalComponent,
     ReviewComponent,
-    LoginComponent
+    LoginComponent,
+    CarlistComponent,
+    LupdateComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
